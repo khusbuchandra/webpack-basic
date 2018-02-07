@@ -1,0 +1,27 @@
+{
+  "name": "webpack-basic",
+  "version": "1.0.0",
+  "description": "Learning webpack 2 basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js dist/bundle.js",
+    "build/prod" : "webpack src/js/app.js dis/bundle.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khusbuchandra/webpack-basic.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khusbuchandra/webpack-basic/issues"
+  },
+  "homepage": "https://github.com/khusbuchandra/webpack-basic#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
